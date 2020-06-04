@@ -1,0 +1,127 @@
+*{
+    margin: 0em;
+    padding: 0;
+}
+
+.logo{
+    height: 36px;
+
+}
+
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left span {
+    color: deepskyblue;
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+
+.header-right ul{
+display: flex;
+
+}
+
+.header-right li {
+    margin-left: 20px;
+}
+li {
+    list-style: none;
+}
+.header-right span:last-child {
+    margin-right: 0;
+}
+
+.welcome {
+    background-image: url(../img/nagoya.jpeg);
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+
+.guide {
+    font-size: 50px;
+    color: goldenrod;
+
+}
+
+.business{
+    display: flex;
+}
+
+.book{
+    float: left;
+}
+
+.diet{
+    float: left;
+}
+
+.cook{
+    float: left;
+}
+
+.title {
+    font-size: 80px;
+    text-align: center;
+    
+}
+.guideline {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.description {
+    line-height: 1.5;}
+
+.description li{
+    margin-bottom: ２px;    
+}
+
+.contents img {
+    height: 150px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.body {
+    margin: 0;
+}
+
+#wrapper {
+     min-height: calc(100vh-70px);
+}
+
+.footer{
+    height: 70px;
+    color:white
+    background: #55aaff;
+    text-align:center;
+
+}
